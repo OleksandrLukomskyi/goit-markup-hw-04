@@ -344,9 +344,9 @@ header {
   justify-content: center;
   gap: 24px;
  }
- .socials-item { 
+ 
 
-}
+
 .socials-link {
   display: flex;
   align-items: center;
@@ -380,8 +380,7 @@ text-align: center;
   justify-content: center;
   gap: 24px;
 }
-.customers-logo {
-}
+
 .customers-link {
   display: flex;
   align-items: center;
@@ -399,8 +398,8 @@ text-align: center;
  fill:var(--color-ocean) ;
  border: 1px solid var(--color-ocean);
 }
-.customers-icon {
-}
+
+
 
 /* footer */
 .footer {
@@ -498,11 +497,18 @@ background-color:rgba(255, 255, 255, 0.1);
   flex-basis: calc((100% - 2 * 24px) / 3);
   
 }
-.flex-item:hover{
-  border: 1px solid #F4F4FD;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+.portfolio-link{
+  display: inline-block;
+  color: var(--color-novy-blue);
+  text-decoration: none;
 }
-.portfolio-bloc-item {
+.portfolio-link:hover,
+.portfolio-link:focus {
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+ }
+
+ .portfolio-bloc-item {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
